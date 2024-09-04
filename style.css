@@ -1,0 +1,98 @@
+.gradient-background {
+    background: linear-gradient(300deg, #0F3443 , #ff4c68, #ef8172,#0F3443 );
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+
+}
+
+.card-cover {
+  background-size: cover;
+  background-position: center;
+}
+.box-a {
+  transition: transform 0.2s;
+}
+.box-a:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #ff4c68;
+  border-radius: 20px;
+}
+
+.box-b {
+  transition: transform 0.2s;
+}
+.box-b:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #ff4c68;
+  border-radius: 20px;
+}
+
+.box-c {
+  transition: transform 0.2s;
+}
+.box-c:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #ff4c68;
+  border-radius: 20px;
+}
+
+  body .navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 5px;
+    opacity: .8;
+  }
+
+  .nav-link:hover{
+    color: #fff;
+  }
+
+  .nav-link{
+    color: rgb(192, 187, 187);
+  }
+
+
+
+
+  .sgv{
+    transition: all 300px ease-in-out
+  }
+
+  .sgv:hover{
+    transform: scale(1.1);
+    color: white;
+    background-color: #1f1c1c;
+    border-radius: 50%;
+  }
+  
+
+
+.btn .arrow {
+  display: inline-block;
+  margin-left: 8px;
+  transition: transform 0.3s ease;
+  font-size: 1.2em; /* Adjust size as needed */
+}
+
+.btn:hover .arrow {
+  transform: translateX(5px);
+}
+
+
+
+
+ 
+  
